@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="APPNOTEModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Note">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Tittle" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Info" Type="DateTime" Precision="3" />
+    <Property Name="isTrash" Type="Boolean" />
+    <Property Name="isPin" Type="Boolean" />
+    <NavigationProperty Name="Tag" Relationship="Self.Note_Tag" FromRole="Note" ToRole="Tag" />
+  </EntityType>
+  <EntityType Name="Tag">
+    <Key>
+      <PropertyRef Name="tagname" />
+    </Key>
+    <Property Name="tagname" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Note" Relationship="Self.Note_Tag" FromRole="Tag" ToRole="Note" />
+  </EntityType>
+  <Association Name="Note_Tag">
+    <End Role="Note" Type="Self.Note" Multiplicity="*" />
+    <End Role="Tag" Type="Self.Tag" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="APPNOTEEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Note" EntityType="Self.Note" />
+    <EntitySet Name="Tag" EntityType="Self.Tag" />
+    <AssociationSet Name="Note_Tag" Association="Self.Note_Tag">
+      <End Role="Note" EntitySet="Note" />
+      <End Role="Tag" EntitySet="Tag" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

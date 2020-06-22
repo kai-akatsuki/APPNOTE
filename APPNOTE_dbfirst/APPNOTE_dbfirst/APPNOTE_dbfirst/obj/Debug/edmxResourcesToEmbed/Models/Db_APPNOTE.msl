@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="APPNOTEModelStoreContainer" CdmEntityContainer="APPNOTEEntities">
+    <EntitySetMapping Name="Note">
+      <EntityTypeMapping TypeName="APPNOTEModel.Note">
+        <MappingFragment StoreEntitySet="Note">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Tittle" ColumnName="Tittle" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="Info" ColumnName="Info" />
+          <ScalarProperty Name="isTrash" ColumnName="isTrash" />
+          <ScalarProperty Name="isPin" ColumnName="isPin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tag">
+      <EntityTypeMapping TypeName="APPNOTEModel.Tag">
+        <MappingFragment StoreEntitySet="Tag">
+          <ScalarProperty Name="tagname" ColumnName="tagname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="Note_Tag" TypeName="APPNOTEModel.Note_Tag" StoreEntitySet="Note_Tag">
+      <EndProperty Name="Note">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+      <EndProperty Name="Tag">
+        <ScalarProperty Name="tagname" ColumnName="tagname" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

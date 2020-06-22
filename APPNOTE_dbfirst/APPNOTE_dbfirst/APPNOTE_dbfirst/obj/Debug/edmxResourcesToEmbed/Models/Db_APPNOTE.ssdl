@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="APPNOTEModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Note">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Tittle" Type="nvarchar" MaxLength="500" />
+    <Property Name="Content" Type="nvarchar(max)" />
+    <Property Name="Info" Type="datetime" />
+    <Property Name="isTrash" Type="bit" />
+    <Property Name="isPin" Type="bit" />
+  </EntityType>
+  <EntityType Name="Note_Tag">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="tagname" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="tagname" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tag">
+    <Key>
+      <PropertyRef Name="tagname" />
+    </Key>
+    <Property Name="tagname" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Note_Tag__Id__286302EC">
+    <End Role="Note" Type="Self.Note" Multiplicity="1" />
+    <End Role="Note_Tag" Type="Self.Note_Tag" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Note">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Note_Tag">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Note_Tag__tagnam__29572725">
+    <End Role="Tag" Type="Self.Tag" Multiplicity="1" />
+    <End Role="Note_Tag" Type="Self.Note_Tag" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tag">
+        <PropertyRef Name="tagname" />
+      </Principal>
+      <Dependent Role="Note_Tag">
+        <PropertyRef Name="tagname" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="APPNOTEModelStoreContainer">
+    <EntitySet Name="Note" EntityType="Self.Note" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Note_Tag" EntityType="Self.Note_Tag" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tag" EntityType="Self.Tag" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Note_Tag__Id__286302EC" Association="Self.FK__Note_Tag__Id__286302EC">
+      <End Role="Note" EntitySet="Note" />
+      <End Role="Note_Tag" EntitySet="Note_Tag" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Note_Tag__tagnam__29572725" Association="Self.FK__Note_Tag__tagnam__29572725">
+      <End Role="Tag" EntitySet="Tag" />
+      <End Role="Note_Tag" EntitySet="Note_Tag" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

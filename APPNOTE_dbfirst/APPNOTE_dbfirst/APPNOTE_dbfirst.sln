@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APPNOTE_dbfirst", "APPNOTE_dbfirst\APPNOTE_dbfirst.csproj", "{75FD6791-793F-4C99-8FF4-67A7B526F490}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75FD6791-793F-4C99-8FF4-67A7B526F490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FD6791-793F-4C99-8FF4-67A7B526F490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FD6791-793F-4C99-8FF4-67A7B526F490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FD6791-793F-4C99-8FF4-67A7B526F490}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {871DFFAC-1CC1-4619-93E7-24B56F126987}
+	EndGlobalSection
+EndGlobal

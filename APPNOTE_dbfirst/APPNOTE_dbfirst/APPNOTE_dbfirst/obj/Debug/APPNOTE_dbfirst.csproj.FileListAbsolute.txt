@@ -1,0 +1,30 @@
+C:\Users\Admin\source\repos\APPNOTE_dbfirst\APPNOTE_dbfirst\bin\Debug\APPNOTE_dbfirst.exe.config
+C:\Users\Admin\source\repos\APPNOTE_dbfirst\APPNOTE_dbfirst\bin\Debug\APPNOTE_dbfirst.exe
+C:\Users\Admin\source\repos\APPNOTE_dbfirst\APPNOTE_dbfirst\bin\Debug\APPNOTE_dbfirst.pdb
+C:\Users\Admin\source\repos\APPNOTE_dbfirst\APPNOTE_dbfirst\obj\Debug\APPNOTE_dbfirst.Properties.Resources.resources
+C:\Users\Admin\source\repos\APPNOTE_dbfirst\APPNOTE_dbfirst\obj\Debug\APPNOTE_dbfirst.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\APPNOTE_dbfirst\APPNOTE_dbfirst\obj\Debug\APPNOTE_dbfirst.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\APPNOTE_dbfirst\APPNOTE_dbfirst\obj\Debug\APPNOTE_dbfirst.exe
+C:\Users\Admin\source\repos\APPNOTE_dbfirst\APPNOTE_dbfirst\obj\Debug\APPNOTE_dbfirst.pdb
+C:\Users\Admin\source\repos\APPNOTE_dbfirst\APPNOTE_dbfirst\obj\Debug\APPNOTE_dbfirst.frmMain.resources
+C:\Users\Admin\source\repos\APPNOTE_dbfirst\APPNOTE_dbfirst\bin\Debug\EntityFramework.dll
+C:\Users\Admin\source\repos\APPNOTE_dbfirst\APPNOTE_dbfirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\repos\APPNOTE_dbfirst\APPNOTE_dbfirst\bin\Debug\EntityFramework.xml
+C:\Users\Admin\source\repos\APPNOTE_dbfirst\APPNOTE_dbfirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\repos\APPNOTE_dbfirst\APPNOTE_dbfirst\obj\Debug\APPNOTE_dbfirst.csproj.CopyComplete
+C:\Users\Admin\source\repos\APPNOTE_dbfirst\APPNOTE_dbfirst\obj\Debug\APPNOTE_dbfirst.csprojAssemblyReference.cache
+D:\HK2_2019\Lập trình windows\APPNOTE_dbfirst\APPNOTE_dbfirst\bin\Debug\APPNOTE_dbfirst.exe.config
+D:\HK2_2019\Lập trình windows\APPNOTE_dbfirst\APPNOTE_dbfirst\bin\Debug\APPNOTE_dbfirst.exe
+D:\HK2_2019\Lập trình windows\APPNOTE_dbfirst\APPNOTE_dbfirst\bin\Debug\APPNOTE_dbfirst.pdb
+D:\HK2_2019\Lập trình windows\APPNOTE_dbfirst\APPNOTE_dbfirst\bin\Debug\EntityFramework.dll
+D:\HK2_2019\Lập trình windows\APPNOTE_dbfirst\APPNOTE_dbfirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\HK2_2019\Lập trình windows\APPNOTE_dbfirst\APPNOTE_dbfirst\bin\Debug\EntityFramework.xml
+D:\HK2_2019\Lập trình windows\APPNOTE_dbfirst\APPNOTE_dbfirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\HK2_2019\Lập trình windows\APPNOTE_dbfirst\APPNOTE_dbfirst\obj\Debug\APPNOTE_dbfirst.csprojAssemblyReference.cache
+D:\HK2_2019\Lập trình windows\APPNOTE_dbfirst\APPNOTE_dbfirst\obj\Debug\APPNOTE_dbfirst.frmMain.resources
+D:\HK2_2019\Lập trình windows\APPNOTE_dbfirst\APPNOTE_dbfirst\obj\Debug\APPNOTE_dbfirst.Properties.Resources.resources
+D:\HK2_2019\Lập trình windows\APPNOTE_dbfirst\APPNOTE_dbfirst\obj\Debug\APPNOTE_dbfirst.csproj.GenerateResource.cache
+D:\HK2_2019\Lập trình windows\APPNOTE_dbfirst\APPNOTE_dbfirst\obj\Debug\APPNOTE_dbfirst.csproj.CoreCompileInputs.cache
+D:\HK2_2019\Lập trình windows\APPNOTE_dbfirst\APPNOTE_dbfirst\obj\Debug\APPNOTE_dbfirst.csproj.CopyComplete
+D:\HK2_2019\Lập trình windows\APPNOTE_dbfirst\APPNOTE_dbfirst\obj\Debug\APPNOTE_dbfirst.exe
+D:\HK2_2019\Lập trình windows\APPNOTE_dbfirst\APPNOTE_dbfirst\obj\Debug\APPNOTE_dbfirst.pdb
